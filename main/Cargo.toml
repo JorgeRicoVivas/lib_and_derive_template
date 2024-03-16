@@ -1,7 +1,7 @@
 [package]
 #Name of your crate
 name = "main"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2021"
 #Author of this create
 authors = ["Jorge Rico Vivas <jorgericoinformatic@gmail.com>"]
@@ -20,10 +20,10 @@ readme = "../README.md"
 crate-type = ["lib"]
 
 [dependencies]
-derive = { version = "1.0.0", path = "../derive", optional = true }
+derive = { version = "0.1.0", path = "../derive", optional = true }
 
 [dev-dependencies]
-derive = { version = "1.0.0", path = "../derive" }
+derive = { version = "0.1.0", path = "../derive" }
 
 [features]
 #Define features here, for example:
