@@ -1,7 +1,20 @@
 [package]
+#Name of your crate
 name = "main"
 version = "1.0.0"
 edition = "2021"
+#Author of this create
+authors = ["Jorge Rico Vivas <jorgericoinformatic@gmail.com>"]
+#Short description for your crate, like "This crate allows you to associate values to each variant on an enum"
+description = ""
+#Indiate your repository URL
+repository = "https://github.com/JorgeRicoVivas/my_crate_s_name"
+#Write at most 5 features, like ["useful", "crate"]
+keywords = []
+#Write at most 5 categoires, like ["no-std", "no-std::no-alloc", "rust-patterns"]
+categories = []
+license-file = "../LICENSE.txt"
+readme = "../README.md"
 
 [lib]
 crate-type = ["lib"]
@@ -11,6 +24,10 @@ derive = { version = "1.0.0", path = "../derive", optional = true }
 
 [dev-dependencies]
 derive = { version = "1.0.0", path = "../derive" }
+
+[features]
+#Define features here, for example:
+#derive = ["dep:derive"]
 
 [profile.dev]
 incremental = true
