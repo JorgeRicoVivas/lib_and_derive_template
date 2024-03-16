@@ -1,7 +1,6 @@
 [package]
 #Name of this crate
 name = "derive"
-name = "main"
 version = "0.1.0"
 #Authors of this create
 authors = ["Jorge Rico Vivas <jorgericoinformatic@gmail.com>"]
