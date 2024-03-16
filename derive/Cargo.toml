@@ -1,6 +1,8 @@
 [package]
 #Name of this crate
 name = "derive"
+name = "main"
+version = "0.1.0"
 #Authors of this create
 authors = ["Jorge Rico Vivas <jorgericoinformatic@gmail.com>"]
 #Short description for your crate, like "This crate allows you to associate values to each variant on an enum"
