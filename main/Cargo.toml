@@ -26,8 +26,7 @@ derive = { version = "0.1.0", path = "../derive", optional = true }
 derive = { version = "0.1.0", path = "../derive" }
 
 [features]
-#Define features here, for example:
-#derive = ["dep:derive"]
+derive = ["dep:derive"]
 
 [profile.dev]
 incremental = true
